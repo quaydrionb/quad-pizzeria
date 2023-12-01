@@ -27,6 +27,12 @@ h1 {
     color: black;
 }
 
+.nav-item {
+  color:#2B523D;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .info-border {
   background-color: #531B20;
   border: #2B523D solid 20px;

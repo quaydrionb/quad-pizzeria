@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <nav class=" navbar navbar-dark fixed-top">
+  <!-- <nav class=" navbar navbar-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#Home"> <img src="./image/logo.png" alt="logo" height="60"> Quad Pizzeria</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
@@ -45,6 +45,36 @@
           </ul>
         </div>
       </div>
+    </div>
+  </nav> -->
+
+  <div class="container collapse fixed-top" id="navbarToggleExternalContent" data-bs-theme="dark">
+    <div class="p-4"></div>
+    <div>
+      <ul class="information container navbar-nav text-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#specials">Our Specials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#arcade">Arcade</a>
+        </li>
+        <li class="nav-item">
+          <a class= "nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark fixed-top">
+    <div class="container-fluid">
+            <button class="information navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
     </div>
   </nav>
 
@@ -90,18 +120,18 @@
   <section id="specials" class="text-background">
     <div class="container py-2">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4">
           <h4>Location</h4>
           <p class="lead">
             123 Pizza Square
             Cityville, FL 12345</p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4">
           <h4>Contact Information</h4>
           <p class="lead">Email: info@quads-pizzeria.com</p>
           <p class="lead">Phone: (555) 123-4567</p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4">
           <h4>Business Hours</h4>
           <p class="lead">Monday to Friday: 11:00 AM - 10:00 PM</p>
           <p class="lead">Saturday and Sunday: 12:00 PM - 11:00 PM</p>
@@ -221,10 +251,10 @@
           <p>Entry Fee: $5.00 per person</p>
           <!--form-->
           <form class="row">
-            <div class="col-lg-7 col-md-3 col-sm-6">
+            <div class="col-lg-7 col-md-7 col-sm-12">
               <input type= "email" class="form-control" id="inputPassword2" placeholder="email@example.com">
             </div>
-            <div class="col-lg-5 col-md-6 col-sm-6 "><button type="submit" class="btn main-button ">Sign up</button></div>
+            <div class="col-lg-5 col-md-5 col-sm-12 "><button type="submit" class="btn main-button ">Sign up</button></div>
           </form>
         </div>
         <div>
