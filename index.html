@@ -74,16 +74,16 @@
     </button>
   </div>
 
-  <div class="introduction text-secondary px-4 py-5 text-center">
+  <div class="introduction text-secondary px-2 py-2 text-center">
     <div class="py-2">
       <h2 class=" top-header fw-bold">Discover the Quad Experience: Square Pizzas for Square Lovers!</h3>
         <div class="container mx-auto">
           <p class=" text-white fs-5 mb-4">At Quad Pizzeria, we've redefined the pizza game with a unique twist – every
             pizza is a perfect square! Say goodbye to traditional circles and embrace the delicious symmetry of Quad's
             square-shaped masterpieces.</p>
-            <div class="container loader mb-4"></div>
+            <div class="container pizza-loader mb-4"></div>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="menu-button btn  btn-lg px-4">View Menu</button>
+            <button type="button" class="main-button btn  btn-lg px-4">View Menu</button>
           </div>
         </div>
     </div>
@@ -127,7 +127,7 @@
             <p class="card-text"><small class="text-body-secondary">Small: $10.99</small></p>
             <p class="card-text"><small class="text-body-secondary">Medium: $15.99</small></p>
             <p class="card-text"><small class="text-body-secondary">Large: $19.99</small></p>
-            <button  type="button" class="menu-button btn-sm btn">Order Now</button>
+            <button  type="button" class="main-button btn-sm btn">Order Now</button>
           </div>
         </div>
         <div class="card">
@@ -137,11 +137,11 @@
             <p class="card-text"><em>A refreshing blend of lemon and lime, sweetened to perfection.</em></p>
             <p class="card-text"><small class="text-body-secondary">Regular: $2.49</small></p>
             <p class="card-text"><small class="text-body-secondary">Large: $3.49</small></p>
-            <button  type="button" class="menu-button btn-sm btn">Order Now</button>
+            <button  type="button" class="main-button btn-sm btn">Order Now</button>
           </div>
         </div>
         <div class="card business">
-          <img src="./image/buffalo-wings.jpeg" class="card-img-top business" alt="buffalo-wings" height="245" loading="lazy">
+          <img src="./image/buffalo-wings.jpeg" class="card-img-top business" alt="buffalo-wings" height="288" loading="lazy">
           <div class="card-body">
             <h5 class="card-title">Classic Buffalo Wings</h5>
             <p class="card-text"><em>Tossed in our signature buffalo sauce, served with celery sticks and blue cheese
@@ -149,7 +149,7 @@
             <p class="card-text"><small class="text-body-secondary">6 Wings: $7.99</small></p>
             <p class="card-text"><small class="text-body-secondary">12 Wings: $14.99</small></p>
             <p class="card-text"><small class="text-body-secondary">24 Wings: $27.99</small></p>
-            <button type="button" class="menu-button btn-sm btn">Order Now</button>
+            <button type="button" class="main-button btn-sm btn">Order Now</button>
           </div>
         </div>
       </div>
@@ -159,7 +159,8 @@
   <!--Arcade-->
   <section id="arcade">
     <div class="container carousel-background">
-      <h3 class="text-center text-white">Join the Fun in Our Arcade!</h3>
+      <h3 class="text-center text-white py-2">Join the Fun in Our Arcade!</h3>
+      <div class="container text-center pacman-loader"></div>
       <p class="text-center text-white">At Quad's Pizzeria, we're not just about fantastic square pizzas; we're also
         your go-to spot for arcade fun! Step into our arcade area and let the good times roll. Whether you're a gaming
         pro or just looking for some casual fun, there's something for everyone.
@@ -221,6 +222,13 @@
         <div>
           <h3>Arcade Pass</h3>
           <p>Entry Fee: $5.00 per person</p>
+          <!--form-->
+          <form class="row">
+            <div class="col-lg-6 col-md-3 col-sm-6">
+              <input type= "email" class="form-control" id="inputPassword2" placeholder="email@example.com">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 "><button type="submit" class="btn main-button ">Sign up</button></div>
+          </form>
         </div>
         <div>
           <h3>Game Credits</h3>
@@ -234,6 +242,7 @@
       </div>
     </div>
   </section>
+
   <!--Our Services-->
   <section>
     <div class="container information">
