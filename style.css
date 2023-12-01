@@ -41,6 +41,12 @@ hr.style-two {
     background-color: #6F1B19;
     color: white;
 }
+
+.menu-button:hover {
+    background-color: #531B20;
+    color: #2B523D;
+}
+
 body {
 
     background-color: #B7A895;;
@@ -65,3 +71,4 @@ body {
 .carousel-background {
     background-color: #531B20;
 }
+

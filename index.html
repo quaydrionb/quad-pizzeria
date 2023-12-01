@@ -11,10 +11,9 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-dark  fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#Home"> <img src="./image/logo.png" alt="logo" height="70"> Quad Pizzeria</a>
+      <a class="navbar-brand" href="#Home"> <img src="./image/logo.png" alt="logo" height="60"> Quad Pizzeria</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
         aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,14 +31,11 @@
               <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Business Information</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Our Specials</a>
+              <a class="nav-link" href="#specials">Our Specials</a>
             </li>
             <li class="nav-item">
             <li class="nav-item">
-              <a class="nav-link" href="#">Arcade</a>
+              <a class="nav-link" href="#arcade">Arcade</a>
             </li>
             <a class="nav-link" href="#">Menu</a>
             </li>
@@ -55,7 +51,7 @@
 
   <!--Pizza Carousel-->
   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+    <div id="Home" class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
         <img src="./image/cheese_pizza.JPG" class="d-block w-100" alt="cheese_pizza" loading="lazy">
 
@@ -77,7 +73,7 @@
     </button>
   </div>
 
-  <div id="Home" class="introduction text-secondary px-4 py-5 text-center">
+  <div class="introduction text-secondary px-4 py-5 text-center">
     <div class="py-2">
       <h2 class=" top-header fw-bold">Discover the Quad Experience: Square Pizzas for Square Lovers!</h3>
         <div class="col-lg-6 mx-auto">
@@ -91,7 +87,7 @@
     </div>
   </div>
   <!--Business Information-->
-  <section class="text-background">
+  <section id="specials" class="text-background">
     <div class="container py-2">
       <div class="row">
         <div class="col-lg-4">
@@ -117,7 +113,6 @@
 
   <!--Menu Section-->
   <section>
-
     <div class="container information">
       <h2 class=" text-white text-center">Our Specials</h2>
       <div class="card-group">
@@ -130,6 +125,7 @@
             <p class="card-text"><small class="text-body-secondary">Small: $10.99</small></p>
             <p class="card-text"><small class="text-body-secondary">Medium: $15.99</small></p>
             <p class="card-text"><small class="text-body-secondary">Large: $19.99</small></p>
+            <button  type="button" class="menu-button btn-sm btn">Order Now</button>
           </div>
         </div>
         <div class="card">
@@ -139,6 +135,7 @@
             <p class="card-text"><em>A refreshing blend of lemon and lime, sweetened to perfection.</em></p>
             <p class="card-text"><small class="text-body-secondary">Regular: $2.49</small></p>
             <p class="card-text"><small class="text-body-secondary">Large: $3.49</small></p>
+            <button  type="button" class="menu-button btn-sm btn">Order Now</button>
           </div>
         </div>
         <div class="card business">
@@ -150,16 +147,16 @@
             <p class="card-text"><small class="text-body-secondary">6 Wings: $7.99</small></p>
             <p class="card-text"><small class="text-body-secondary">12 Wings: $14.99</small></p>
             <p class="card-text"><small class="text-body-secondary">24 Wings: $27.99</small></p>
+            <button type="button" class="menu-button btn-sm btn">Order Now</button>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+ 
   <!--Arcade-->
-  <section>
+  <section id="arcade">
     <div class="container carousel-background">
-
       <h3 class="text-center text-white">Join the Fun in Our Arcade!</h3>
       <p class="text-center text-white">At Quad's Pizzeria, we're not just about fantastic square pizzas; we're also
         your go-to spot for arcade fun! Step into our arcade area and let the good times roll. Whether you're a gaming
