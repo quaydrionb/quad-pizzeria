@@ -14,7 +14,7 @@
 
   <nav class="navbar navbar-dark  fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"> <img src="./image/logo.png" alt="logo" height="70"> Quad Pizzeria</a>
+      <a class="navbar-brand" href="#Home"> <img src="./image/logo.png" alt="logo" height="70"> Quad Pizzeria</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
         aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Business Information</a>
@@ -57,14 +57,14 @@
   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="./image/cheese_pizza.JPG" class="d-block w-100" alt="cheese_pizza">
+        <img src="./image/cheese_pizza.JPG" class="d-block w-100" alt="cheese_pizza" loading="lazy">
 
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="./image/supreme_pizza.JPG" class="d-block w-100" alt="supreme_pizza">
+        <img src="./image/supreme_pizza.JPG" class="d-block w-100" alt="supreme_pizza" loading="lazy">
       </div>
       <div class="carousel-item">
-        <img src="./image/veggie pizza.JPG" class="d-block w-100" alt="veggie-pizza">
+        <img src="./image/veggie pizza.JPG" class="d-block w-100" alt="veggie-pizza" loading="lazy">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -77,7 +77,7 @@
     </button>
   </div>
 
-  <div class="introduction text-secondary px-4 py-5 text-center">
+  <div id="Home" class="introduction text-secondary px-4 py-5 text-center">
     <div class="py-2">
       <h2 class=" top-header fw-bold">Discover the Quad Experience: Square Pizzas for Square Lovers!</h3>
         <div class="col-lg-6 mx-auto">
@@ -91,7 +91,7 @@
     </div>
   </div>
   <!--Business Information-->
-  <section class="here">
+  <section class="text-background">
     <div class="container py-2">
       <div class="row">
         <div class="col-lg-4">
@@ -122,7 +122,7 @@
       <h2 class=" text-white text-center">Our Specials</h2>
       <div class="card-group">
         <div class="card business">
-          <img src="./image/quad-pizza.jpeg" class="card-img-top" alt="quad-pizza">
+          <img src="./image/quad-pizza.jpeg" class="card-img-top" alt="quad-pizza" loading="lazy">
           <div class="card-body">
             <h5 class="card-title">Classic Quad</h5>
             <p class="card-text"><em>Our timeless masterpiece with marinara sauce, mozzarella, pepperoni, bell peppers,
@@ -133,7 +133,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="./image/lemonade.jpeg" class="card-img-top" alt="lemonade">
+          <img src="./image/lemonade.jpeg" class="card-img-top" alt="lemonade" loading="lazy">
           <div class="card-body">
             <h5 class="card-title">Quad's Special Lemonade</h5>
             <p class="card-text"><em>A refreshing blend of lemon and lime, sweetened to perfection.</em></p>
@@ -142,11 +142,11 @@
           </div>
         </div>
         <div class="card business">
-          <img src="./image/buffalo-wings.jpeg" class="card-img-top business" alt="buffalo-wings" height="288">
+          <img src="./image/buffalo-wings.jpeg" class="card-img-top business" alt="buffalo-wings" height="245" loading="lazy">
           <div class="card-body">
             <h5 class="card-title">Classic Buffalo Wings</h5>
-            <p class="card-text">Tossed in our signature buffalo sauce, served with celery sticks and blue cheese
-              dressing.</p>
+            <p class="card-text"><em>Tossed in our signature buffalo sauce, served with celery sticks and blue cheese
+              dressing.</em></p>
             <p class="card-text"><small class="text-body-secondary">6 Wings: $7.99</small></p>
             <p class="card-text"><small class="text-body-secondary">12 Wings: $14.99</small></p>
             <p class="card-text"><small class="text-body-secondary">24 Wings: $27.99</small></p>
@@ -177,7 +177,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./image/arcade.jpeg" class="d-block w-100" alt="arcade">
+            <img src="./image/arcade.jpeg" class="d-block w-100" alt="arcade" loading="lazy">
             <div class="carousel-caption d-none d-md-block">
               <h3>Classic Arcade Games</h3>
               <p>Enjoy a nostalgic trip down memory lane with a selection of classic arcade games. From Pac-Man to
@@ -185,7 +185,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./image/woman-arcade.jpeg" class="d-block w-100" alt="woman-arcade">
+            <img src="./image/woman-arcade.jpeg" class="d-block w-100" alt="woman-arcade" loading="lazy">
             <div class="carousel-caption d-none d-md-block">
               <h3>Modern Gaming Experience</h3>
               <p>Immerse yourself in the latest gaming trends with our modern arcade setups. From racing games to
@@ -193,7 +193,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./image/kids-arcade.jpeg" class="d-block w-100" alt="kids-arcade">
+            <img src="./image/kids-arcade.jpeg" class="d-block w-100" alt="kids-arcade" loading="lazy">
             <div class="carousel-caption d-none d-md-block">
               <h3>Family-Friendly Atmosphere</h3>
               <p>Our arcade is designed to be a family-friendly space. Bring the kids for a fun-filled outing or
@@ -217,8 +217,7 @@
 
   <!--Pricing section-->
   <section>
-    <div class="container px-4 py-5 business" id="featured-3">
-
+    <div class="container px-4 py-5 business services" id="featured-3">
       <div class="row g-4  row-cols-1 row-cols-lg-3">
         <div>
           <h3>Arcade Pass</h3>
