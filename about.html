@@ -3,10 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!--Nav bar-->
+    <div class="container collapse fixed-top" id="navbarToggleExternalContent" data-bs-theme="dark">
+      <div class="p-4"></div>
+      <div>
+        <ul class="information container navbar-nav text-center py-5">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class= "nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="nav-brand" href=""><img class="logo" src="./image/logo.png" alt="logo" loading="lazy"></a> 
+              <button class="information navbar-toggler py-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      </div>
+    </nav>
+  
+    <!--Pizza Carousel-->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div id="Home" class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./image/cheese_pizza.JPG" class="d-block w-100" alt="cheese_pizza" loading="lazy">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./image/supreme_pizza.JPG" class="d-block w-100" alt="supreme_pizza" loading="lazy">
+        </div>
+        <div class="carousel-item">
+          <img src="./image/veggie pizza.JPG" class="d-block w-100" alt="veggie-pizza" loading="lazy">
+        </div>
+        <div class="carousel-item">
+          <img src="./image/buffalo-wings.jpeg" class="d-block w-100" alt="cheese_pizza" loading="lazy">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="introduction  px-2 py-2 text-center">
+      <div class="col-xl py-2">
+        <h2 class=" top-header fw-bold">Discover the Quad Experience: Square Pizzas for Square Lovers!</h3>
+          <div class="container mx-auto">
+            <p class=" text-white fs-5 mb-4">Excitement awaits you at Quad Pizzeria! Picture this: delicious square pizzas, mouthwatering wings, and an atmosphere buzzing with good vibes and arcade games. It's the perfect place to unwind and savor the flavor!</p>
+              <div class="container pizza-loader mb-4"></div>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="main-button btn  btn-lg px-4">View Menu</button>
+            </div>
+          </div>
+      </div>
+    </div>
+   </div>
+   <!--About-->
+   <section>
+    <div class="container information">
+      <h2 class="text-center text-white">About</h2>
+      <div class="row">
+        <article class="container-fluid business">
+            <h4>Our Story</h4>
+            <p class="lead">Founded in 2022, Quad Pizzeria was born out of a passion for pizza and a desire to break away from the ordinary. We believe that every meal should be an experience, and what better way to make that happen than with our innovative square pizzas?</p>
+          </article>
+          <article class="container business ">
+            <h4>Our Mission</h4>
+            <p class="lead">At Quad Pizzeria, our mission is simple - to deliver delicious and unique square pizzas that bring joy to your taste buds. We are committed to using only the freshest ingredients, ensuring that each bite is a moment of culinary delight.</p>
+          </article>
+      </div>
+    </div>
+   </section>
   <!--Our Services-->
   <section>
     <div class="container information">
@@ -47,6 +129,11 @@
       </div>
   </section>
 </div>
+ 
+  <footer class=" py-3 my-4">
+    <p class="text-white text-center ">© 2023 Quad Pizzeria, Inc</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
 </html>
