@@ -6,6 +6,7 @@
   
 nav {
     background-color: linear-gradient(#CDC1AB 30%,#F0E0CA 30%, #B7A895);
+    padding: auto;
 }
 
 .logo {
