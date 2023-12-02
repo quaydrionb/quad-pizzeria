@@ -5,7 +5,14 @@
 
   
 nav {
+  padding: auto;
     background-color: #2B523D;
+}
+
+.logo {
+  max-height: 70px;
+  max-width: 70px;
+  border-radius: 20%;
 }
 
 #carouselExampleInterval .carousel-item img{
@@ -22,10 +29,6 @@ nav {
     overflow: hidden;
 }
 
-h1 {
-
-    color: black;
-}
 
 .nav-item {
   color: #CDC1AB;
