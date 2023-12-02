@@ -6,10 +6,10 @@
   
 nav {
   padding: auto;
-    background-color: #CDC1AB;
+    background-color: linear-gradient(#CDC1AB 30%,#F0E0CA 70% );
 }
 
-.logo {
+. logo {
   max-height: 70px;
   max-width: 70px;
   border-radius: 20%;
