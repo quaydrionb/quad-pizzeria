@@ -51,11 +51,14 @@ hr.style-two {
     color: #2B523D;
 }
 
+.cart-button {
+  background-color: #F0E0CA;
+}
+
 body {
 
     background-color: #B7A895;
 }
-
 
 .text-background{
     background-color: #CDC1AB;
