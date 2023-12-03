@@ -6,7 +6,6 @@
   
 nav {
     background-color: #F0E0CA;
-    padding: 10px;
 }
 
 .logo {
@@ -17,18 +16,10 @@ nav {
 #carouselExampleInterval .carousel-item img{
     object-fit: cover;
     object-position: center;
-    height: 50vh;
+    height: 60vh;
     overflow: hidden;
+    border: #531B20 solid 10px;
 }
-
- .carousel-item img{
-    object-fit: cover;
-    object-position: center;
-    height: 80vh;
-    overflow: hidden;
-    border: #531B20 solid 5px;
-}
-
 
 .nav-item {
   color: #CDC1AB;
