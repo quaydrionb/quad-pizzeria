@@ -5,14 +5,13 @@
 
   
 nav {
-    background-color: #B7A895;
-    padding: auto;
+    background-color: #F0E0CA;
+    padding: 10px;
 }
 
 .logo {
-  max-height: 70px;
+  max-height: 80px;
   max-width: 70px;
-  border-radius: 20%;
 }
 
 #carouselExampleInterval .carousel-item img{
@@ -25,8 +24,9 @@ nav {
  .carousel-item img{
     object-fit: cover;
     object-position: center;
-    height: 60vh;
+    height: 80vh;
     overflow: hidden;
+    border: #531B20 solid 5px;
 }
 
 
@@ -62,7 +62,7 @@ hr.style-two {
 
 body {
 
-    background-color: #B7A895;;
+    background-color: #B7A895;
 }
 
 
