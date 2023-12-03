@@ -10,8 +10,9 @@ nav {
 
 .logo {
   max-height: 80px;
-  max-width: 70px;
+  max-width: 100px;
 }
+
 
 #carouselExampleInterval .carousel-item img{
     object-fit: cover;
@@ -51,8 +52,13 @@ hr.style-two {
     color: #2B523D;
 }
 
-.cart-button {
+.cart-button:active {
   background-color: #F0E0CA;
+}
+
+.cart-button:hover {
+  color: #F0E0CA;
+  background-color: #2B523D;
 }
 
 body {
