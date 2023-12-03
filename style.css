@@ -7,10 +7,23 @@
 nav {
     background-color: #F0E0CA;
 }
+.nav-link {
+
+ padding-left: 10px;
+}
 
 .logo {
-  max-height: 80px;
-  max-width: 100px;
+  max-height: 100px;
+  max-width: 150px;
+  margin-bottom: -8px;
+  padding-bottom: -70px;
+  padding-left: 38px;
+}
+
+.menu-items {
+  color: #F0E0CA;
+  background-color: #6F1B19;
+  font-size: large;
 }
 
 
@@ -22,7 +35,11 @@ nav {
     border: #531B20 solid 10px;
 }
 
-.nav-item {
+.carousel-background {
+  background-color: #531B20;
+}
+
+.navbar-items {
   color: #CDC1AB;
   font-weight: bold;
   font-size: 20px;
@@ -52,7 +69,7 @@ hr.style-two {
     color: #2B523D;
 }
 
-.cart-button:active {
+.cart-button {
   background-color: #F0E0CA;
 }
 
@@ -83,9 +100,7 @@ body {
 .information{
     background-color: #531B20;
 }
-.carousel-background {
-    background-color: #531B20;
-}
+
 
 
 .pizza-loader {

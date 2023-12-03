@@ -10,51 +10,58 @@
 </head>
 <body>
     
-     <!--Nav bar-->
-  <div class="container collapse fixed-top" id="navbarToggleExternalContent" data-bs-theme="dark">
-    <div class="p-4"></div>
-    <div>
-      <ul class="information container navbar-nav text-center py-5">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class= "nav-link" href="./menu.html">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./about.html">About us</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <nav class="navbar navbar-dark fixed-top">
-    <div class="container-fluid">
-      <button class="information navbar-toggler py-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="nav-brand" href="./index.html"><img class="logo" src="./image/logo.jpg" alt="logo" loading="lazy"></a> 
-      <button class="btn cart-button" ><img src="./svg/cart.svg" alt="cart" height="24" width="24">$0.00</button>
-    </div>
-  </nav>
+      <!--Nav bar-->
+      <div class="container-fluid mx-2 navbar-items">
+        <div class="container collapse fixed-top" id="navbarToggleExternalContent" data-bs-theme="dark">
+          <div class="p-4"></div>
+          <div>
+            <ul class="information container navbar-nav text-center py-5 mt-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class= "nav-link" href="./menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark fixed-top">
+          <div class="container-fluid">
+            <button class="information navbar-toggler py-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="nav-brand" href="./index.html"><img class="logo" src="./image/logo.jpg" alt="logo" loading="lazy"></a> 
+             <button class="btn cart-button" ><img src="./svg/cart.svg" alt="cart" height="24" width="24"> $0.00</button>
+          </div>
+        </nav>
+      </div>
+  
   <div class="information text-center container-fluid mt-5 py-5">
-    <h3 class="top-header">Menu</h3>
+    <h3 class="top-header mt-3">Menu</h3>
   </div>
     <div class="container-fluid">
-        <nav>
+        <nav class="menu-items">
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-              <a class="nav-item nav-link active" id="nav-pizza-tab" data-toggle="tab" href="#nav-pizza" role="tab" aria-controls="nav-pizza" aria-selected="true">Pizza</a>
-              <a class="nav-item nav-link" id="nav-wingse-tab" data-toggle="tab" href="#nav-wings" role="tab" aria-controls="nav-wings" aria-selected="false">Wings</a>
-              <a class="nav-item nav-link" id="nav-drinks-tab" data-toggle="tab" href="#nav-drinks" role="tab" aria-controls="nav-drinks" aria-selected="false">Drinks</a>
+              <a class="nav-item nav-link active menu-items" id="nav-pizza-tab" data-toggle="tab" href="#nav-pizza" role="tab" aria-controls="nav-pizza" aria-selected="true">Pizza</a>
+              <a class="nav-item nav-link menu-items" id="nav-wings-tab" data-toggle="tab" href="#nav-wings" role="tab" aria-controls="nav-wings" aria-selected="false">Wings</a>
+              <a class="nav-item nav-link menu-items" id="nav-drinks-tab" data-toggle="tab" href="#nav-drinks" role="tab" aria-controls="nav-drinks" aria-selected="false">Drinks</a>
+              <a class="nav-item nav-link menu-items" id="nav-desserts-tab" data-toggle="tab" href="#nav-desserts" role="tab" aria-controls="nav-desserts" aria-selected="false">Desserts</a>
             </div>
           </nav>
           <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-pizza-tab">
+              
+            </div>
+            <div class="tab-pane fade" id="nav-wings" role="tabpanel" aria-labelledby="nav-wings-tab">
 
             </div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div class="tab-pane fade" id="nav-drinks" role="tabpanel" aria-labelledby="nav-drinks-tab">
 
             </div>
-            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <div class="tab-pane fade" id="nav-desserts" role="tabpanel" aria-labelledby="nav-desserts-tab">
 
             </div>
           </div>
