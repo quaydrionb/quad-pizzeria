@@ -3,7 +3,6 @@
 
 }
 
-
   
 nav {
     background-color: #F0E0CA;
@@ -27,10 +26,6 @@ nav {
   font-size: large;
 }
 
-.con{
-
-  transition: transform .5s;
-}
 
 
 #carouselExampleInterval .carousel-item img{
@@ -93,8 +88,8 @@ hr.style-two {
   color:#F0E0CA;
   border-radius: 50%;
   position: absolute;
-  top: 70%;
-  right: -10px;
+  top: -8px;
+  right: -15px;
 }
 
 body {
@@ -121,122 +116,10 @@ body {
     background-color: #531B20;
 }
 
-.listPizza .item img{
-  width: 100%;
-  border-radius: 20%;
-  
-}
 
-.listPizza {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-}
 
-.listPizza .item{
-  background-color: #F0E0CA;
-  padding: 20px;
-  border-radius: 20%;
-}
 
-.listPizza .item h2{
-  font-weight: 500;
-  font-size: large;
-}
 
-.listPizza .item .price {
-  letter-spacing: 7px;
-  font-size: small;
-}
-
-.listPizza .item button {
-  background-color: #2B523D;
-  color:#F0E0CA;
-  padding: 5px 10px;
-  border-radius: 20px;
-  margin-top: 10px;
-  border: none;
-  cursor: pointer;
-}
-
-.cartTab{
-  width: 300px;
-  background-color: #2B523D;
-  color: #B7A895;
-  position: fixed;
-  inset: 0 -400px 0 auto;
-  display: grid;
-  grid-template-rows: 70px 1fr 70px;
-  transform: .5s;
-
-}
-
-body.showCart .cartTab{
-  inset: 0 0 0 auto;
-}
-
-body.showCart .con{
-  transform: translateX(-10px);
-}
-.cartTab h1{
-   padding: 20px;
-   padding-top: 100px;
-  font-weight: 300;
-}
-.cartTab .btn {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.cartTab .btn button{
-
-  background-color: #6F1B19;
-  border: none;
-  font-weight: 500;
-  cursor: pointer;
-}
-.cartTab .btn .close{
-  background-color: #eee;
-}
-
-.cartTab .listCart .item img{
-  width: 100%;
-}
-
-.cartTab .listCart .item{
-  display: grid;
-  padding-top: 100px;
-  grid-template-columns: 70px 150px 50px 1fr;
-  gap:10px; 
-  text-align: center;
-  align-items: center;
-}
-
-.listCart .quantity span{
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  background-color: #eee;
-  color: #555;
-  border-radius: 50%;
-  cursor: pointer;
-
-}
-
-.listCart .quantity span:nth-child(2) {
-  background-color: transparent;
-  color: #eee;
-}
-
-.listCart .item:nth-child(even) {
-  background-color: #eee1;
-}
-.listCart {
-  overflow: auto;
-}
-
-.listCart::-webkit-scrollbar{
-  width: 0;
-}
 
 .pizza-loader {
     width: 80px;
