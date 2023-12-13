@@ -1,70 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="components/navbar.js" type="module" defer></script>
 </head>
+
 <body>
-    <!--Nav bar-->
-    <div class="container-fluid mx-2 navbar-items">
-      <div class="container collapse fixed-top" id="navbarToggleExternalContent" data-bs-theme="dark">
-        <div class="p-4"></div>
-        <div>
-          <ul class="information container navbar-nav text-center py-5 mt-2">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class= "nav-link" href="./menu.html">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">About us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <nav class="navbar navbar-dark fixed-top">
-        <div class="container-fluid">
-          <button class="information navbar-toggler py-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="nav-brand" href="./index.html"><img class="logo" src="./image/logo.jpg" alt="logo" loading="lazy"></a> 
-          <div class="icon-cart mx-2">
-            <button type="button" class="btn btn-sm"><img class="cart" src="./svg/cart.svg" alt="cart"
-                data-bs-toggle="modal" data-bs-target="#exampleModal"><span>0</span></button>
-          </div>
-        </div>
-      </nav>
-    </div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-3" id="exampleModalLabel">Cart Items</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <!-- <h5>Oops! Looks Like Your Cart is Craving Something.</h5>
-          <p>"It seems your cart is in need of a flavor boost! Explore our menu and add some tasty items to satisfy
-            those cravings."</p> -->
-        </div>
-        <div class="modal-footer ">
-          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Go to checkout</button>
-        </div>
-      </div>
-    </div>
-  </div>
+  <navbar-component></navbar-component>
 
-  
-   <!--About-->
-   <section>
+  <!--About-->
+  <section>
     <div class="container px-4 py-5 info-border align-items-center">
       <div class="align-items-center g-5 py-5">
         <div class="container-fluid">
@@ -72,31 +24,35 @@
           <div class="row">
             <article class="container-fluid business">
               <h4>Our Story</h4>
-              <p class="lead">Founded in 2022, Quad Pizzeria was born out of a passion for pizza and a desire to break away
+              <p class="lead">Founded in 2022, Quad Pizzeria was born out of a passion for pizza and a desire to break
+                away
                 from the ordinary. We believe that every meal should be an experience, and what better way to make that
                 happen than with our innovative square pizzas?</p>
             </article>
             <article class="container-fluid business ">
               <h4>Our Mission</h4>
-              <p class="lead">At Quad Pizzeria, our mission is simple - to deliver delicious and unique square pizzas that
-                bring joy to your taste buds. We are committed to using only the freshest ingredients, ensuring that each
+              <p class="lead">At Quad Pizzeria, our mission is simple - to deliver delicious and unique square pizzas
+                that
+                bring joy to your taste buds. We are committed to using only the freshest ingredients, ensuring that
+                each
                 bite is a moment of culinary delight.</p>
             </article>
           </div>
         </div>
       </div>
     </div>
-   </section>
+  </section>
 
-   
-         
- 
+
   <footer class=" py-3 my-4">
     <p class="text-white text-center ">© 2023 Quad Pizzeria, Inc</p>
   </footer>
 
   <script src="main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
