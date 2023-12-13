@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
 
@@ -17,6 +19,19 @@ nav {
   margin-bottom: -8px;
   padding-bottom: -70px;
   padding-right: 8px;
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: #F0E0CA;
+}
+
+.modal-content {
+  background-color: #F0E0CA;
+}
+
+.hide-checkout {
+  visibility: hidden;
 }
 
 
@@ -31,7 +46,7 @@ nav {
 #carouselExampleInterval .carousel-item img{
     object-fit: cover;
     object-position: center;
-    height: 50vh;
+    height: 60vh;
     overflow: hidden;
     border: #531B20 solid 10px;
 }
@@ -77,6 +92,10 @@ hr.style-two {
 .icon-cart {
   position: relative;
 }
+ .icon-cart button:hover{
+    border-bottom: solid 5px #531B20;
+ }
+
 
 .icon-cart span{
   display: flex;
@@ -89,7 +108,8 @@ hr.style-two {
   border-radius: 50%;
   position: absolute;
   top: -8px;
-  right: -15px;
+  right: -10px;
+  cursor: pointer;
 }
 
 body {
