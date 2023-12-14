@@ -5,7 +5,6 @@ class NavBar extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = ` 
-    <link rel="stylesheet" href="style.css">
     <header>
       <div class="container-fluid mx-2 navbar-items">
           <div class="container collapse fixed-top" id="navbarToggleExternalContent" data-bs-theme="dark">
@@ -34,7 +33,7 @@ class NavBar extends HTMLElement {
               <a class="nav-brand" href="./index.html"><img class="logo" src="./image/logo.jpg" alt="logo" loading="lazy"></a>
               <div class="icon-cart mx-2">
                 <button type="button" class="btn btn-sm"><img class="cart" src="./svg/cart.svg" alt="cart"
-                    data-bs-toggle="modal" data-bs-target="#exampleModal"><span>0</span></button>
+                    data-bs-toggle="modal" data-bs-target="#exampleModal"><span id="cartAmount">0</span></button>
               </div>
             </div>
           </nav>
@@ -57,42 +56,8 @@ class NavBar extends HTMLElement {
           </div>
         </div>
       </div>
-    </header>
-    <script src="main.js"></script>`;
+    </header>`;
   }
 }
 
 customElements.define("navbar-component", NavBar);
-
-//   //the cart ammount
-//   let cart = document.querySelector(".icon-cart span");
-//   let cartItem = document.querySelector(".icon-cart button");
-//   //for the first button
-//   let addcart = document.querySelectorAll(".card button")[0];
-//   let cartButton = document.querySelector("div.modal-body");
-//   let checkOut = document.querySelector("div.modal-footer .btn-primary");
-
-//   let counter = 0;
-
-//   //This adds 1 every time the button is clicked
-//   addcart.addEventListener("click", () => {
-//     ++counter;
-//     cart.innerText = `${counter}`;
-//   });
-
-//   // arrow function for adding text to the body
-//   let newButton = (cart) => {
-//     if (cart.innerHTML === "0") {
-//       cartButton.innerText = "Oops! Looks Like Your Cart is Craving Something";
-//       checkOut.classList.add("hide-checkout");
-//     } else {
-//       //This will pass a function in for the items in the cart
-//       cartButton.innerText = "This will display the items in cart";
-//       checkOut.classList.remove("hide-checkout");
-//     }
-//   };
-
-//   //updates the cart status
-//   cartItem.addEventListener("click", () => {
-//     newButton(cart);
-//   });

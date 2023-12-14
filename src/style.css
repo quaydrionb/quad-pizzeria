@@ -1,0 +1,231 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+  
+nav {
+    background-color: #F0E0CA;
+}
+.nav-link {
+  padding-left: 10px;
+}
+
+.logo {
+  max-height: 100px;
+  max-width: 150px;
+  margin-bottom: -8px;
+  padding-bottom: -70px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: #F0E0CA;
+}
+
+.modal-content {
+  background-color: #F0E0CA;
+}
+
+.hide-checkout {
+  visibility: hidden;
+}
+
+
+.menu-items {
+  color: #2B523D;
+  background-color: #F0E0CA;
+  font-size: large;
+}
+
+
+#carouselExampleInterval .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 60vh;
+    overflow: hidden;
+    border: #531B20 solid 10px;
+    margin-top: 20px;
+}
+
+.carousel-background {
+  background-color: #531B20;
+}
+
+.navbar-items {
+  color: #CDC1AB;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.info-border {
+  background-color: #531B20;
+  border: #2B523D solid 20px;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.top-header {
+  color: #F0E0CA;
+}
+
+.main-button {
+    background-color: #6F1B19;
+    color: white;
+}
+
+.main-button:hover {
+    background-color: #531B20;
+    color: #2B523D;
+}
+
+.cart{
+  width: 30px;
+  background-color: #F0E0CA;
+
+}
+.icon-cart {
+  position: relative;
+}
+ .icon-cart button:hover{
+    border-bottom: solid 5px #531B20;
+ }
+
+
+.icon-cart span{
+  display: flex;
+  width: 24px;
+  height: 24px;
+  background-color: #2B523D;
+  justify-content: center;
+  align-items: center;
+  color:#F0E0CA;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  cursor: pointer;
+}
+
+body {
+
+    background-color: #B7A895;
+    margin: 0;
+}
+
+.text-background{
+    background-color: #F0E0CA;
+}
+.business {
+    background-color: #F0E0CA;
+}
+
+.introduction, footer {
+    background-color: #2B523D;
+}
+
+.services {
+    border: #6F1B19 solid 5px;
+}
+.information{
+    background-color: #531B20;
+}
+
+.price-quantity {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 25px;
+  color: #2B523D;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.price-quantity svg{
+  color: #2B523D;
+  cursor: pointer;
+}
+
+
+
+.cartButton {
+  display: flex;
+  gap: 8px;
+}
+
+
+
+
+.pizza-loader {
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+    border: 8px solid #d1914b;
+    box-sizing: border-box;
+    --c:no-repeat radial-gradient(farthest-side, #d64123 94%,#0000);
+    --b:no-repeat radial-gradient(farthest-side, #000 94%,#0000);
+    background:
+      var(--c) 11px 15px,
+      var(--b) 6px 15px,    
+      var(--c) 35px 23px,
+      var(--b) 29px 15px,    
+      var(--c) 11px 46px,
+      var(--b) 11px 34px,    
+      var(--c) 36px 0px,
+      var(--b) 50px 31px,
+      var(--c) 47px 43px,
+      var(--b) 31px 48px,    
+      #f6d353; 
+    background-size: 15px 15px,6px 6px;
+    animation: l4 3s infinite;
+  }
+  @keyframes l4 {
+    0%     {-webkit-mask:conic-gradient(#0000 0     ,#000 0)}
+    16.67% {-webkit-mask:conic-gradient(#0000 60deg ,#000 0)}
+    33.33% {-webkit-mask:conic-gradient(#0000 120deg,#000 0)}
+    50%    {-webkit-mask:conic-gradient(#0000 180deg,#000 0)}
+    66.67% {-webkit-mask:conic-gradient(#0000 240deg,#000 0)}
+    83.33% {-webkit-mask:conic-gradient(#0000 300deg,#000 0)}
+    100%   {-webkit-mask:conic-gradient(#0000 360deg,#000 0)}
+  }
+
+  /*loader for pac-man */
+.pacman-loader {
+    width: 90px;
+    height: 24px;
+    padding: 2px 0;
+    box-sizing: border-box;
+    display: flex;
+    animation: l5-0 3s infinite steps(6);
+    background:
+      linear-gradient(#000 0 0) 0 0/0% 100% no-repeat,
+      radial-gradient(circle 3px,#eeee89 90%,#0000) 0 0/20% 100%
+      #000;
+    overflow: hidden;
+  }
+  .pacman-loader::before {
+    content: "";
+    width: 20px;
+    transform: translate(-100%);
+    border-radius: 50%;
+    background: #ffff2d;
+    animation: 
+      l5-1 .25s .153s infinite steps(5) alternate,
+      l5-2  3s        infinite linear;
+  }
+  @keyframes l5-1{ 
+      0% {clip-path: polygon(50% 50%,100%   0,100% 0,0 0,0 100%,100% 100%,100% 100%)}
+    100% {clip-path: polygon(50% 50%,100% 65%,100% 0,0 0,0 100%,100% 100%,100%  35%)}
+  }
+  @keyframes l5-2{ 
+    100% {transform: translate(90px)}
+  }
+  @keyframes l5-0{ 
+    100% {background-size:120% 100%,20% 100%}
+  }

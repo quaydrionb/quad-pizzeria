@@ -7,13 +7,13 @@
   <title>Quad Pizzeria</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <script src="components/navbar.js" type="module" defer></script>
+  <link rel="stylesheet" href="src/style.css">
+  <script src="components/navbar.js"></script>
 </head>
 
 <body>
 
-<navbar-component></navbar-component>
+  <navbar-component></navbar-component>
 
   <!--Pizza Carousel-->
   <div id="carouselExampleInterval" class="carousel slide py-2 mt-5" data-bs-ride="carousel">
@@ -85,38 +85,7 @@
     <section id="specials">
       <div class="container-fluid information">
         <h2 class=" text-white text-center">Our Specials</h2>
-        <div class="card-group">
-          <div class="card business">
-            <img src="./image/quad-pizza.jpeg" class="card-img-top" alt="quad-pizza" loading="lazy">
-            <div class="card-body">
-              <h5 class="card-title">Classic Quad</h5>
-              <p class="card-text"><em>Our timeless masterpiece with marinara sauce, mozzarella, pepperoni, bell
-                  peppers,
-                  and mushrooms.</em></p>
-
-              <p class="card-text"><small class="text-body-secondary">Medium: $15.99</small></p>
-              <button type="button" class="main-button btn-sm btn">Add to cart</button>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./image/lemonade.jpeg" class="card-img-top" alt="lemonade" loading="lazy">
-            <div class="card-body">
-              <h5 class="card-title">Quad's Special Lemonade</h5>
-              <p class="card-text"><em>A refreshing blend of lemon and lime, sweetened to perfection.</em></p>
-              <p class="card-text"><small class="text-body-secondary">Regular: $2.49</small></p>
-              <button type="button" class="main-button btn-sm btn">Add to cart</button>
-            </div>
-          </div>
-          <div class="card business">
-            <img src="./image/speciality-wings.jpeg" class="card-img-top business" alt="buffalo-wings" loading="lazy">
-            <div class="card-body">
-              <h5 class="card-title">Classic Buffalo Wings</h5>
-              <p class="card-text"><em>Tossed in our signature buffalo sauce, served with celery sticks and blue cheese
-                  dressing.</em></p>
-              <p class="card-text"><small class="text-body-secondary">12 Wings: $14.99</small></p>
-              <button type="button" class="main-button btn-sm btn">Add to Cart</button>
-            </div>
-          </div>
+        <div class="card-group" id="special-items">
         </div>
       </div>
     </section>
@@ -208,7 +177,6 @@
     </section>
 
 
-
     <footer class=" py-3 my-4">
       <p class="text-white text-center ">© 2023 Quad Pizzeria, Inc</p>
     </footer>
@@ -216,6 +184,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"></script>
+    <script src="src/main.js"></script>
 </body>
 
 </html>
