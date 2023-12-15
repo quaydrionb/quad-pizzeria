@@ -49,12 +49,12 @@ nav {
     height: 60vh;
     overflow: hidden;
     border: #531B20 solid 10px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
-.carousel-background {
+/* .carousel-background {
   background-color: #531B20;
-}
+} */
 
 .navbar-items {
   color: #CDC1AB;
@@ -137,9 +137,12 @@ body {
 .information{
     background-color: #531B20;
 }
-
+.card-group {
+  gap: 20px;
+}
 .price-quantity {
-  display: flex;
+  display: row;
+  flex-direction: column;
   justify-content: space-between;
   font-size: 18px;
   padding: 25px;
