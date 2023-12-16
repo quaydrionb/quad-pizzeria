@@ -46,7 +46,7 @@ nav {
 #carouselExampleInterval .carousel-item img{
     object-fit: cover;
     object-position: center;
-    height: 60vh;
+    height: 50vh;
     overflow: hidden;
     border: #531B20 solid 10px;
     margin-top: 50px;
@@ -81,26 +81,26 @@ nav {
   
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (min-device-width: 481px) and (max-width: 980px) {
 
+  .price-quantity {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #2B523D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
   
  
   .card-group {
-
-
-    
-    
+     display: row;
+     flex-direction: column;
     }
   
   
 }
 
 
-
-
-/* .carousel-background {
-  background-color: #531B20;
-} */
 
 .navbar-items {
   color: #CDC1AB;
