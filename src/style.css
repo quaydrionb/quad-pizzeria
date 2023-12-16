@@ -52,6 +52,52 @@ nav {
     margin-top: 50px;
 }
 
+
+@media screen and (max-width: 640px) {
+
+  #carouselExampleInterval .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 40vh;
+    overflow: hidden;
+    border: #531B20 solid 10px;
+    margin-top: 50px;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+
+ 
+  .price-quantity {
+    display: row;
+    flex-direction: column;
+    font-size: 18px;
+    color: #2B523D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+}
+
+@media screen and (max-width: 940px) {
+
+  
+ 
+  .card-group {
+
+
+    
+    
+    }
+  
+  
+}
+
+
+
+
 /* .carousel-background {
   background-color: #531B20;
 } */
@@ -141,11 +187,9 @@ body {
   gap: 20px;
 }
 .price-quantity {
-  display: row;
-  flex-direction: column;
+  display: flex;
   justify-content: space-between;
   font-size: 18px;
-  padding: 25px;
   color: #2B523D;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
