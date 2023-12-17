@@ -190,6 +190,7 @@ body {
 .cartButton {
   display: flex;
   gap: 8px;
+  cursor: pointer;
 }
 
 .cart-item {
@@ -200,6 +201,7 @@ body {
   color: red;
   font-weight: bold;
   margin-bottom: 12px;
+  cursor: pointer;
 }
 
 

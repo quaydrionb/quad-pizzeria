@@ -127,7 +127,7 @@ let TotalAmount = () => {
       .reduce((x, y) => x + y, 0);
 
     label.innerHTML = `
-     <h2 class="total-bill">Total  Bill : $${amount.toFixed(2)}</h2>
+     <h2 class="total-bill">Subtotal : $${amount.toFixed(2)}</h2>
      <button class="checkout btn btn-md mt-4 mb-3">Checkout</button>
      <button onclick="clearCart()" class="removeAll main-button btn btn-md mt-4 mb-3">Clear Cart</button>
     `;
