@@ -32,29 +32,11 @@ class NavBar extends HTMLElement {
               </button>
               <a class="nav-brand" href="./index.html"><img class="logo" src="./image/logo.jpg" alt="logo" loading="lazy"></a>
               <div class="icon-cart mx-2">
-                <button type="button" class="btn btn-sm"><img class="cart" src="./svg/cart.svg" alt="cart"
-                    data-bs-toggle="modal" data-bs-target="#exampleModal"><span id="cartAmount">0</span></button>
+                <a href="checkout.html"><button type="button" class="btn btn-sm"><img class="cart" src="./svg/cart.svg" alt="cart"><span id="cartAmount">0</span></button></a>
               </div>
             </div>
           </nav>
         </div>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-3" id="exampleModalLabel">Cart Items</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p>Oops! Looks Like Your Cart is Craving Something
-            </div>
-            <div class="modal-footer ">
-              <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Go to checkout</button>
-            </div>
-          </div>
-        </div>
-      </div>
     </header>`;
   }
 }

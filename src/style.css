@@ -122,7 +122,7 @@ hr.style-two {
   color: #F0E0CA;
 }
 
-.main-button {
+.main-button{
     background-color: #6F1B19;
     color: white;
 }
@@ -199,15 +199,32 @@ body {
   cursor: pointer;
 }
 
-
-
 .cartButton {
   display: flex;
   gap: 8px;
 }
 
+.cart-item {
+  display: row;
+  flex-direction: column;
+}
+.x-svg {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
 
 
+.title-price-x {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout {
+  background-color: #2B523D;
+  color: #F0E0CA;
+}
 
 .pizza-loader {
     width: 80px;
