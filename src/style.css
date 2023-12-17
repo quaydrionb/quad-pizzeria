@@ -150,7 +150,7 @@ hr.style-two {
 
 body {
 
-    background-color: #B7A895;
+    background-color: #F0E0CA;
     margin: 0;
 }
 
@@ -170,6 +170,7 @@ body {
 }
 .information{
     background-color: #531B20;
+    color:#F0E0CA
 }
 .card-group {
   gap: 20px;
