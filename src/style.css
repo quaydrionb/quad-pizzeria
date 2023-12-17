@@ -23,18 +23,6 @@ nav {
   cursor: pointer;
 }
 
-.modal-content {
-  background-color: #F0E0CA;
-}
-
-.modal-content {
-  background-color: #F0E0CA;
-}
-
-.hide-checkout {
-  visibility: hidden;
-}
-
 
 .menu-items {
   color: #2B523D;
@@ -46,7 +34,7 @@ nav {
 #carouselExampleInterval .carousel-item img{
     object-fit: cover;
     object-position: center;
-    height: 50vh;
+    height: 60vh;
     overflow: hidden;
     border: #531B20 solid 10px;
     margin-top: 50px;
@@ -108,7 +96,7 @@ nav {
   font-size: 20px;
 }
 
-.info-border {
+.info-border{
   background-color: #531B20;
   border: #2B523D solid 20px;
 }
@@ -224,6 +212,24 @@ body {
 .checkout {
   background-color: #2B523D;
   color: #F0E0CA;
+
+}
+
+.shopping-cart {
+  border-radius: 20%;
+}
+
+.details {
+ font-size: 18px;
+}
+
+.checkout-card {
+  border: #6F1B19 solid 5px;
+  border-radius: 5%;
+}
+
+.total-bill {
+  font-weight: bold;
 }
 
 .pizza-loader {

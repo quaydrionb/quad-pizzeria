@@ -2,7 +2,7 @@ let shopSpecialItemsData = [
   {
     id: "sfdgrfa",
     name: "Classic Quad",
-    price: 16.0,
+    price: 13.99,
     size: "Medium",
     desc: "Our masterpiece with marinara sauce, mozzarella, pepperoni,and mushrooms.",
     img: "./image/quad-pizza.jpeg",
@@ -10,7 +10,7 @@ let shopSpecialItemsData = [
   {
     id: "sfddsrf",
     name: "Quad's Special Lemonade",
-    price: 2.5,
+    price: 2.49,
     size: "Regular",
     desc: "A refreshing blend of lemon and lime, sweetened to perfection.",
     img: "./image/lemonade.jpeg",
@@ -18,7 +18,7 @@ let shopSpecialItemsData = [
   {
     id: "sfregrf",
     name: "Classic Buffalo Wings",
-    price: 15.0,
+    price: 13.99,
     size: "12 Wings",
     desc: "Tossed in our signature buffalo sauce, served with celery sticks and blue cheese dressing.",
     img: "./image/speciality-wings.jpeg",

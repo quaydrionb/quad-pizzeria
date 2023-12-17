@@ -18,7 +18,7 @@ let generatecartItems = () => {
       let search = shopSpecialItemsData.find((y) => y.id === id) || [];
       return `
    
-      <div class="container-fluid card mb-3 pt-3" style="max-width: 640px;">
+      <div class="container card mb-3 pt-3 checkout-card" style="max-width: 540px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src=${search.img} class="img-fluid rounded-start" alt="...">
@@ -29,7 +29,7 @@ let generatecartItems = () => {
               <div class="title-price-x">
                 <p>${search.name}</p>
                 <p>$${search.price}</p>
-                <svg onclick="removeItem(${id})" class="x-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <svg onclick="removeItem(${id})" class="x-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                 <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
               </svg>
               </div>
@@ -127,7 +127,7 @@ let TotalAmount = () => {
       .reduce((x, y) => x + y, 0);
 
     label.innerHTML = `
-     <h2>Total  Bill : $ ${amount}</h2>
+     <h2 class="total-bill">Total  Bill : $${amount.toFixed(2)}</h2>
      <button class="checkout btn btn-md mt-4 mb-3">Checkout</button>
      <button onclick="clearCart()" class="removeAll main-button btn btn-md mt-4 mb-3">Clear Cart</button>
     `;
