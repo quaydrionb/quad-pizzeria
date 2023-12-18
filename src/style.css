@@ -109,7 +109,6 @@ hr.style-two {
 .top-header {
   font-family: 'Josefin Sans', sans-serif;
   color: #F0E0CA;
-  letter-spacing: 10px;
 }
 
 .main-button{
@@ -239,6 +238,10 @@ body {
 
 .total-bill {
   font-weight: bold;
+}
+
+.menu {
+  letter-spacing: 10px;
 }
 
 .pizza-loader {
