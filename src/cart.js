@@ -35,7 +35,7 @@ let generatecartItems = () => {
                 <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
               </svg>
               </div>
-              <p class="text-wrap badge bg-dark">${size}</p>
+              <p>${size}</p>
               <div class="cartButton">
                 <svg onclick="decrement(${id})" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                   fill="currentColor" class="bi bi-arrow-left-circle " viewBox="0 0 16 16">
@@ -63,7 +63,7 @@ let generatecartItems = () => {
     <h2 class="mt-5">"Oops! Looks Like Your Cart is Craving Something."</h2>
     <p class="lead"> "It seems your cart is in need of a flavor boost! Explore our menu and add some tasty items to satisfy those cravings."</p>
     <a href="menu.html">
-       <button class="HomeButton main-button btn btn-lg mt-3 px-4">Back to Menu</button>
+       <button class="HomeButton main-button btn btn-lg mt-3 px-4 mb-3">Back to Menu</button>
     </a>
     `;
   }
@@ -125,15 +125,21 @@ let TotalAmount = () => {
     let amount = basket
       .map((x) => {
         let { item, id } = x;
+        itemAmount = item;
         let search = shopSpecialItemsData.find((y) => y.id === id) || [];
-        return item * search.price;
+        return itemAmount * search.price;
       })
       .reduce((x, y) => x + y, 0);
 
+    let taxAmount = amount * 0.07;
+    let totalDue = taxAmount + amount;
+
     label.innerHTML = `
-     <h2 class="total-bill">Subtotal : $${amount.toFixed(2)}</h2>
+    <h4>Subtotal: $${amount.toFixed(2)}</h4>
+    <h4>Tax: $${taxAmount.toFixed(2)}</h4>
+    <h4>Total Due: $${totalDue.toFixed(2)}</h4>
      <button class="checkout btn btn-md mt-4 mb-3">Checkout</button>
-     <button onclick="clearCart()" class="removeAll main-button btn btn-md mt-4 mb-3">Clear Cart</button>
+     <button onclick="clearCart()" class="removeAll main-button btn btn-md mt-4 mb-3">Clear Cart</button>  
     `;
   } else return;
 };

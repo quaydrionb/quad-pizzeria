@@ -236,9 +236,13 @@ body {
   border-radius: 5%;
 }
 
-.total-bill {
+.checkout-bill {
+  padding-top: 10px;
+  margin-top: 10px;
+  background-color: #CDC1AB;
   font-weight: bold;
 }
+
 
 .menu-title {
   letter-spacing: 10px;
@@ -292,6 +296,7 @@ body {
 .menu-item-desc {
   line-height: 1.6;
 }
+
 
 @media screen and (min-width: 992px) {
   .menu {
