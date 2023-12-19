@@ -6,6 +6,16 @@
     padding: 0;
 }
 
+body {
+
+  background-color: #F0E0CA;
+  margin: 0;
+}
+
+
+/*
+** Header font Josefin Sans
+*/
 h1,h2,h3, h4 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
@@ -19,6 +29,12 @@ nav {
   padding-left: 10px;
 }
 
+.navbar-items {
+  color: #CDC1AB;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .logo {
   max-height: 100px;
   max-width: 150px;
@@ -28,11 +44,72 @@ nav {
   cursor: pointer;
 }
 
-.menu-items {
-  color: #2B523D;
+.cart{
+  width: 30px;
   background-color: #F0E0CA;
-  font-size: large;
+
 }
+.icon-cart {
+  position: relative;
+}
+ .icon-cart button:hover{
+    border-bottom: solid 5px #531B20;
+ }
+
+
+.icon-cart span{
+  display: flex;
+  width: 24px;
+  height: 24px;
+  background-color: #2B523D;
+  justify-content: center;
+  align-items: center;
+  color:#F0E0CA;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  cursor: pointer;
+}
+
+
+
+.text-background{
+  background-color: #F0E0CA;
+}
+.business {
+  background-color: #F0E0CA;
+}
+
+.introduction, footer {
+  background-color: #2B523D;
+}
+
+.info-border{
+  background-color: #531B20;
+  border: #2B523D solid 20px;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.top-header {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #F0E0CA;
+}
+
+.main-button{
+  background-color: #6F1B19;
+  color: white;
+}
+
+.main-button:hover {
+  background-color: #531B20;
+  color: #2B523D;
+}
+
 
 
 #carouselExampleInterval .carousel-item img{
@@ -88,83 +165,6 @@ nav {
   
 }
 
-
-
-.navbar-items {
-  color: #CDC1AB;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.info-border{
-  background-color: #531B20;
-  border: #2B523D solid 20px;
-}
-
-hr.style-two {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-.top-header {
-  font-family: 'Josefin Sans', sans-serif;
-  color: #F0E0CA;
-}
-
-.main-button{
-    background-color: #6F1B19;
-    color: white;
-}
-
-.main-button:hover {
-    background-color: #531B20;
-    color: #2B523D;
-}
-
-.cart{
-  width: 30px;
-  background-color: #F0E0CA;
-
-}
-.icon-cart {
-  position: relative;
-}
- .icon-cart button:hover{
-    border-bottom: solid 5px #531B20;
- }
-
-
-.icon-cart span{
-  display: flex;
-  width: 24px;
-  height: 24px;
-  background-color: #2B523D;
-  justify-content: center;
-  align-items: center;
-  color:#F0E0CA;
-  border-radius: 50%;
-  position: absolute;
-  top: -8px;
-  right: -10px;
-  cursor: pointer;
-}
-
-body {
-
-    background-color: #F0E0CA;
-    margin: 0;
-}
-
-.text-background{
-    background-color: #F0E0CA;
-}
-.business {
-    background-color: #F0E0CA;
-}
-
-.introduction, footer {
-    background-color: #2B523D;
-}
 
 .services {
     border: #6F1B19 solid 5px;
@@ -233,6 +233,12 @@ body {
 
 .details {
  font-size: 18px;
+}
+
+.menu-items {
+  color: #2B523D;
+  background-color: #F0E0CA;
+  font-size: large;
 }
 
 .checkout-card {
