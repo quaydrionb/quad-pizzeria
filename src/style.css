@@ -278,11 +278,12 @@ hr.style-two {
 
 .menu-item {
   display: flex;
+  background-color: #CDC1AB;
 }
 
 .menu-item-img {
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 160px;
   flex-shrink: 0;
   object-fit: cover;
   margin-right: 1.5em;
@@ -299,8 +300,9 @@ hr.style-two {
   margin: 0;
 }
 
-.menu-item-name {
+.menu-item-name, .menu-item-price {
   margin-right: 1.5em;
+  margin-top: 15px;
 }
 
 .menu-item-desc {
@@ -325,8 +327,8 @@ hr.style-two {
   }
 
   .menu-item-img {
-    width: 125px;
-    height: 125px;
+    width: 155px;
+    height: 160px;
   }
 }
 
