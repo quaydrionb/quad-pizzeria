@@ -148,7 +148,6 @@ hr.style-two {
 }
 
 @media screen and (min-device-width: 481px) and (max-width: 980px) {
-
   .price-quantity {
     display: flex;
     justify-content: space-between;
