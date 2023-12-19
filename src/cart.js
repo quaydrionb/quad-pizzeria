@@ -137,7 +137,7 @@ let TotalAmount = () => {
     label.innerHTML = `
     <h4>Subtotal: $${amount.toFixed(2)}</h4>
     <h4>Tax: $${taxAmount.toFixed(2)}</h4>
-    <h4>Total Due: $${totalDue.toFixed(2)}</h4>
+    <h4>Order total: $${totalDue.toFixed(2)}</h4>
      <button onclick="clearCart()" type="button" class="btn checkout btn btn-md mt-4 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Checkout</button>
      <button onclick="clearCart()" class="removeAll main-button btn btn-md mt-4 mb-3">Clear Cart</button>  
     `;
