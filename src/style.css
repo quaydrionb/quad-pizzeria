@@ -282,8 +282,8 @@ hr.style-two {
 }
 
 .menu-item-img {
-  width: 150px;
-  height: 160px;
+  width: 80px;
+  height: 80px;
   flex-shrink: 0;
   object-fit: cover;
   margin-right: 1.5em;
@@ -300,9 +300,8 @@ hr.style-two {
   margin: 0;
 }
 
-.menu-item-name, .menu-item-price {
+.menu-item-name {
   margin-right: 1.5em;
-  margin-top: 15px;
 }
 
 .menu-item-desc {
@@ -327,8 +326,8 @@ hr.style-two {
   }
 
   .menu-item-img {
-    width: 155px;
-    height: 160px;
+    width: 125px;
+    height: 125px;
   }
 }
 
