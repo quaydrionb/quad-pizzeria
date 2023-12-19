@@ -48,7 +48,7 @@ let shopMenuItemsData = [
     price: 11.99,
     size: "12 Wings",
     desc: "Prepare your taste buds for a symphony of crunch with our irresistibly crispy chicken tenders",
-    img: ".image/crispy-chicken.jpeg",
+    img: "./image/crispy-chicken.jpeg",
   },
 
   {

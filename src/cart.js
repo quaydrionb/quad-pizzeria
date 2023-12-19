@@ -63,7 +63,7 @@ let generatecartItems = () => {
     <h2 class="mt-5">"Oops! Looks Like Your Cart is Craving Something."</h2>
     <p class="lead"> "It seems your cart is in need of a flavor boost! Explore our menu and add some tasty items to satisfy those cravings."</p>
     <a href="menu.html">
-       <button class="HomeButton main-button btn btn-lg mt-3 px-4 mb-3">Back to Menu</button>
+       <button class="HomeButton main-button btn btn-lg mt-3 px-4 mb-3">View Menu</button>
     </a>
     `;
   }
@@ -138,7 +138,7 @@ let TotalAmount = () => {
     <h4>Subtotal: $${amount.toFixed(2)}</h4>
     <h4>Tax: $${taxAmount.toFixed(2)}</h4>
     <h4>Total Due: $${totalDue.toFixed(2)}</h4>
-     <button class="checkout btn btn-md mt-4 mb-3">Checkout</button>
+     <button onclick="clearCart()" type="button" class="btn checkout btn btn-md mt-4 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Checkout</button>
      <button onclick="clearCart()" class="removeAll main-button btn btn-md mt-4 mb-3">Clear Cart</button>  
     `;
   } else return;

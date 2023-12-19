@@ -222,6 +222,10 @@ body {
   color: #F0E0CA;
 
 }
+.checkout:hover {
+  color: #531B20;
+  background-color: #F0E0CA;
+}
 
 .shopping-cart {
   border-radius: 20%;
@@ -295,6 +299,13 @@ body {
 
 .menu-item-desc {
   line-height: 1.6;
+}
+.modal-body {
+  color: #F0E0CA;
+}
+.modal-header, .modal-footer {
+  color: #2B523D;
+  background-color: #F0E0CA;
 }
 
 
