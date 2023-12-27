@@ -1,0 +1,12 @@
+{
+  "name": "quad-pizzeria",
+  "version": "1.0.0",
+  "description": "Quad's Pizzeria Website\r Welcome to the Quad Pizzeria website repository! \r # Quad Pizzeria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
