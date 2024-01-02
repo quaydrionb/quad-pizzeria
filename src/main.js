@@ -2,6 +2,7 @@ let specialItems = document.getElementById("special-items");
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
+ <!--This generates the cart items-->
 let generateItems = () => {
   return (specialItems.innerHTML = shopSpecialItemsData
     .map((specItem) => {
