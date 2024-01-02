@@ -21,7 +21,7 @@ Quad Pizzeria is a fictional pizza restaurant with a unique twist – we special
 - **Location Information:** Find out where Quad Pizzeria is located and plan your visit.
 
 ## Adding Items to cart
-- This is where you can add and remove items from cart
+ This is where you can add and remove items from the cart
 ![quad-pizzeria-middle](https://github.com/quaydrionb/quad-pizzeria/assets/99278263/919a65c0-6990-492d-9848-764826d950b2)
 
 ## Getting Started
