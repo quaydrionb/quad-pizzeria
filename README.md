@@ -8,6 +8,8 @@ Welcome to Quad Pizzeria – where square pizzas meet culinary delight!
 
 - [About Quad Pizzeria](#about-quad-pizzeria)
 - [Getting Started](#getting-started)
+- [Adding Items to cart](#adding-items-to-cart)
+
 
 ## About Quad Pizzeria
 
