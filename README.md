@@ -16,9 +16,8 @@ Quad Pizzeria is a fictional pizza restaurant with a unique twist – we special
 ## Features
 
 - **Menu:** Browse through our diverse menu offerings, including square pizzas, wings, cookies, and brownies.
-- **Order Placement:** Easily place and customize your orders directly through the website.
-- This is where you can add items to cart
-- ![quad-pizzeria-middle](https://github.com/quaydrionb/quad-pizzeria/assets/99278263/919a65c0-6990-492d-9848-764826d950b2)
+- **Order Placement:** Easily place and customize your orders directly through the website. Bellow is where you can add items to cart
+  ![quad-pizzeria-middle](https://github.com/quaydrionb/quad-pizzeria/assets/99278263/919a65c0-6990-492d-9848-764826d950b2)
 
 - **Exciting Arcade:** Discover our arcade section for added fun during your visit.
 - **Location Information:** Find out where Quad Pizzeria is located and plan your visit.
