@@ -16,6 +16,10 @@ html {
     scroll-behavior: smooth;
 }
 
+a, btn, svg {
+    transition: all  300ms ease;
+}
+
 
 /*
 ** Header font Josefin Sans
