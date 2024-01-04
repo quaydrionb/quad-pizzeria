@@ -4,6 +4,44 @@ Welcome to the Quad Pizzeria website repository!
 
 Welcome to Quad Pizzeria – where square pizzas meet culinary delight!
 
+This project is a web application featuring shopping cart functionality. The repository includes the following files and directories:
+
+## Project Structure
+
+
+This directory contains the source code of the web application.
+
+- **`cart.js`**
+  - Contains logic for the shopping cart functionality.
+
+- **`data.js`**
+  - Handles data for the application.
+
+- **`main.js`**
+  - Includes updates to the main functionality.
+
+- **`menu.js`**
+  - Manages data related to the application's menu.
+
+- **`style.css`**
+  - Manages the styling of the web application.
+
+
+### HTML Files
+
+- **`about.html`**
+  - Provides information about the application or company.
+
+- **`checkout.html`**
+  - Contains the checkout modal for the shopping cart.
+
+- **`index.html`**
+  - The main landing page of the web application.
+
+- **`menu.html`**
+  - Displays the menu of items available for purchase.
+
+
 ## Table of Contents
 
 - [About Quad Pizzeria](#about-quad-pizzeria)
