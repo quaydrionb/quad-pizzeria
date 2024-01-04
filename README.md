@@ -6,6 +6,29 @@ Welcome to Quad Pizzeria – where square pizzas meet culinary delight!
 
 This project is a web application featuring shopping cart functionality. The repository includes the following files and directories:
 
+
+## Table of Contents
+
+- [About Quad Pizzeria](#about-quad-pizzeria)
+- [Getting Started](#getting-started)
+- [Adding Items to cart](#adding-items-to-cart)
+
+
+## About Quad Pizzeria
+
+Quad Pizzeria is a fictional pizza restaurant with a unique twist – we specialize in delicious square pizzas, mouthwatering wings, and a variety of delightful desserts. This repository contains the code for our website, allowing customers to explore our menu, place orders, and experience the Quad Pizzeria magic.
+
+## Features
+
+- **Menu:** Browse through our diverse menu offerings, including square pizzas, wings, cookies, and brownies.
+- **Order Placement:** Easily place and customize your orders directly through the website.
+- **Exciting Arcade:** Discover our arcade section for added fun during your visit.
+- **Location Information:** Find out where Quad Pizzeria is located and plan your visit.
+
+## Adding Items to cart
+ This is where you can add items to cart
+![quad-pizzeria-middle](https://github.com/quaydrionb/quad-pizzeria/assets/99278263/919a65c0-6990-492d-9848-764826d950b2)
+
 ## Project Structure
 
 
@@ -40,29 +63,6 @@ This directory contains the source code of the web application.
 
 - **`menu.html`**
   - Displays the menu of items available for purchase.
-
-
-## Table of Contents
-
-- [About Quad Pizzeria](#about-quad-pizzeria)
-- [Getting Started](#getting-started)
-- [Adding Items to cart](#adding-items-to-cart)
-
-
-## About Quad Pizzeria
-
-Quad Pizzeria is a fictional pizza restaurant with a unique twist – we specialize in delicious square pizzas, mouthwatering wings, and a variety of delightful desserts. This repository contains the code for our website, allowing customers to explore our menu, place orders, and experience the Quad Pizzeria magic.
-
-## Features
-
-- **Menu:** Browse through our diverse menu offerings, including square pizzas, wings, cookies, and brownies.
-- **Order Placement:** Easily place and customize your orders directly through the website.
-- **Exciting Arcade:** Discover our arcade section for added fun during your visit.
-- **Location Information:** Find out where Quad Pizzeria is located and plan your visit.
-
-## Adding Items to cart
- This is where you can add items to cart
-![quad-pizzeria-middle](https://github.com/quaydrionb/quad-pizzeria/assets/99278263/919a65c0-6990-492d-9848-764826d950b2)
 
 ## Getting Started
 
